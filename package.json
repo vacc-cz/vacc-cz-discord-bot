@@ -1,26 +1,26 @@
 {
   "name": "vacc-cz-discord-bot",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Discord bot of VACC-CZ",
   "main": "index.mjs",
   "scripts": {
-    "test": "eslint --ext js,mjs src"
+    "test": "eslint ."
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@bitbucket.org/vacc-cz/vacc-cz-discord-bot.git"
+    "url": "git+ssh://git@github.com/vacc-cz/vacc-cz-discord-bot.git"
   },
   "author": "Bedřich Schindler <bedrich.schindler@gmail.com>",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/vacc-cz/vacc-cz-discord-bot",
+  "homepage": "https://github.com/vacc-cz/vacc-cz-discord-bot",
+  "engines": {
+    "node": ">=24"
+  },
   "dependencies": {
-    "discord.js": "^12.5.3",
-    "dotenv": "^10.0.0",
-    "node-fetch": "^3.0.0"
+    "discord.js": "^14.27.0"
   },
   "devDependencies": {
-    "eslint": "^8.57.1",
-    "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-plugin-import": "^2.32.0"
+    "@react-ui-org/eslint-config": "^1.1.0",
+    "eslint": "^9.39.5"
   }
 }
